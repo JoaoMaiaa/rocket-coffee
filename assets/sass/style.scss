@@ -2,11 +2,13 @@
 
 *{
     font-family: 'Manrope', sans-serif;
+    margin:0;
+    padding:0;
+    overflow:hidden;
 }
 
 body{
     height:100vh!important;
-    max-height:100%!important;
 }
 
 :root {
@@ -28,4 +30,30 @@ body{
 
 .f-weight-7{
     font-weight:700;
+}
+
+.img-fluid{
+    width:800px;
+    height:700px;
+}
+
+.h100{
+    height:98vh;
+}
+
+.is-absolute{
+    position:absolute!important;
+    width:100vw;
+}
+
+.navbar{
+    background:transparent!important;
+}
+
+.navbar-end{
+    margin-right:0!important;
+}
+
+.is-active{
+    background:transparent!important;
 }
