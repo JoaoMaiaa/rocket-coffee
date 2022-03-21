@@ -1,0 +1,22 @@
+{
+  "name": "rocket-coffee",
+  "version": "1.0.0",
+  "description": "ultimo projeto do discover da rocketseat - rocket coffee",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoMaiaa/rocket-coffee.git"
+  },
+  "author": "Joao Maia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoMaiaa/rocket-coffee/issues"
+  },
+  "homepage": "https://github.com/JoaoMaiaa/rocket-coffee#readme",
+  "dependencies": {
+    "bulma": "^0.9.3"
+  }
+}
