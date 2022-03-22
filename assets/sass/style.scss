@@ -57,3 +57,17 @@ body{
 .is-active{
     background:transparent!important;
 }
+
+.is-link:hover{
+    background-color:var(--button)!important;
+}
+
+.h1-shadow {
+    color:#000!important;
+    text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+}
+
+.svg-shadow{
+    text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button)!important;
+}
+
