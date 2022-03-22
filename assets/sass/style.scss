@@ -20,8 +20,17 @@ body{
     --text-color-menu-mobile: #E1E1E6;
 }
 
+.navbar-item:hover{
+    background:transparent!important;
+}
+
 .text{
-    text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+    filter: 
+    drop-shadow(-1px -1px 0px var(--button))
+    drop-shadow(1px -1px 0px var(--button))
+    drop-shadow(-1px 1px 0px var(--button))
+    drop-shadow(1px 1px 0px var(--button));
+    width:30px;
 }
 
 .f-weight-4{
@@ -30,11 +39,6 @@ body{
 
 .f-weight-7{
     font-weight:700;
-}
-
-.img-fluid{
-    width:800px;
-    height:700px;
 }
 
 .h100{
@@ -54,20 +58,40 @@ body{
     margin-right:0!important;
 }
 
+.navbar-start{
+    padding-left:110px!important;
+}
+
 .is-active{
     background:transparent!important;
+}
+
+.is-outlined{
+    border:2px solid var(--button) !important;
 }
 
 .is-link:hover{
     background-color:var(--button)!important;
 }
 
+.navbar-burger{
+    margin:auto 0 auto auto!important;
+}
+
+.h1{
+    font-size:4.5rem;
+}
+
 .h1-shadow {
+    font-size:4.5rem;
     color:#000!important;
     text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
 }
 
-.svg-shadow{
-    text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button)!important;
+.element-1{
+    transform:rotate(180deg);
 }
 
+.img-cup{
+    width:640px;
+}
