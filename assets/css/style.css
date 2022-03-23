@@ -7,7 +7,7 @@
 }
 
 body {
-  height: 150vh !important;
+  height: 100vh !important;
 }
 
 :root {
@@ -23,6 +23,18 @@ body {
   background: transparent !important;
 }
 
+.is-fixed-top {
+  top: 25px !important;
+  right: 100px !important;
+  left: 100px !important;
+}
+
+@media (max-width: 480px) {
+  .is-fixed-top {
+    right: 0px !important;
+    left: 10px !important;
+  }
+}
 .text {
   filter: drop-shadow(-1px -1px 0px var(--button)) drop-shadow(1px -1px 0px var(--button)) drop-shadow(-1px 1px 0px var(--button)) drop-shadow(1px 1px 0px var(--button));
   width: 20px;
@@ -30,7 +42,7 @@ body {
 
 @media (max-width: 580px) {
   .text {
-    width: 20px;
+    width: 15px;
   }
 }
 .f-weight-4 {
@@ -48,6 +60,7 @@ body {
 .is-absolute {
   position: absolute !important;
   width: 100vw;
+  z-index: 998 !important;
 }
 
 .navbar {
@@ -65,6 +78,17 @@ body {
 @media (max-width: 990px) {
   .navbar-start {
     padding-left: 0px;
+  }
+}
+.great-coffee {
+  margin-top: 4.2rem;
+  z-index: 998 !important;
+}
+
+@media (max-width: 480px) {
+  .great-coffee {
+    margin-top: 0rem;
+    z-index: 998 !important;
   }
 }
 .is-active {
@@ -109,14 +133,19 @@ body {
 }
 .img-cup {
   width: 640px;
+  z-index: 999;
 }
 
 @media (min-width: 410px) and (max-width: 756px) {
   .is-flex-mobile-custom {
     display: none !important;
   }
+
+  .columns {
+    z-index: 999;
+  }
 }
-@media (max-width: 413px) {
+@media (max-width: 414px) {
   .is-flex-mobile-custom {
     display: flex !important;
   }
@@ -124,6 +153,41 @@ body {
 @media (min-width: 756px) and (max-width: 768px) {
   .is-flex-mobile-custom {
     display: none !important;
+  }
+}
+.text-mobile {
+  margin-top: 91px;
+}
+
+.button-mobile {
+  margin-top: 63px;
+}
+
+@media (min-width: 420px) {
+  .columns-custom {
+    display: none !important;
+  }
+}
+@media (max-width: 320px) {
+  .h100 {
+    height: 100vh;
+  }
+
+  .text-mobile {
+    margin-top: 64px;
+    font-size: 1.3rem !important;
+  }
+
+  .button-mobile {
+    margin-top: 32px;
+  }
+
+  .great-coffee {
+    padding-top: 0rem;
+  }
+
+  .img-cup {
+    margin-top: 33px;
   }
 }
 
